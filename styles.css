@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(245, 245, 245, 0.5);
+    margin: 50px;
+    padding: 0;
+    justify-content: center; /* Centra horizontalmente */
+    font-size: 16px; /* Tamaño de fuente base para 'em' o 'rem' */
+    padding: 2%; /* Márgenes y rellenos en '%' */
+   
+  }
+
+  .container {
+    text-align: center;
+
+  }
+
+  img {
+    background-color: #746c62;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    height: 10%;
+    max-width: 100%;
+
+  }
+
+  #mycontacts {
+    background-color: #746c62;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  #contact-list {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(99, 99, 99, 0.1);
+    display: block;
+    flex-direction: column;
+    align-items: center;
+}
+
+  #contact-form {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Ancho del campo de entrada en % */
+    font-size: 1em; /* Tamaño de fuente en 'em' */
+  }
+
+  input[type="text"] {
+    width: 100%; /* Ancho del campo de entrada en % */
+    font-size: 1em; /* Tamaño de fuente en 'em' */
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  button {
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0%;/* Ejemplo de tamaño de fuente en 'em' */
+    color: transparent;
+  padding: 2% 5%; /* Ejemplo de dimensiones en '%' */
+  justify-content: center;
+    
+  }
+
+  .image-button {
+    background-image: url('imagen.png'); /* Ruta a tu imagen */
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 200px; /* Ancho del botón */
+      height: 50px; /* Alto del botón */
+      border: none; /* Elimina el borde del botón */
+      cursor: pointer;
+    }
+  
+
+  .image-button2 {
+    background-image: url('imagen.png'); /* Ruta a tu imagen PNG */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el botón */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    width: 200px; /* Ancho del botón */
+    height: 50px; /* Alto del botón */
+    border: none;
+    color: white; /* Color de texto */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+  }
+
+  
+
+  button:hover {
+    background-color: #0486ff;
+  }
+
+  #contact-list div {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 3px;
+    cursor: pointer;
+    
+  }
+
+  #contact-list div:hover {
+    background-color: #f2f2f2;
+  }
+
+  .contact-entry {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative; /* Añadir posición relativa para los íconos */
+  }
+
+  .delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: red;
+    cursor: pointer;
+  }
+
+  .logout-button {
+
+
+    background-color: #0f0f0f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    position: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  footer {
+
+    margin: auto;
+    color: #000000;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    height: 10%;
+    max-width: 100%;
+
+  }
+
+
+  @media (max-width: 768px) {
+    /* Estilos para pantallas más pequeñas (por ejemplo, teléfonos) */
+  }
+ 
+  /* Font size for large devices */
+@media screen and (min-width: 968px) {
+  :root {
+      --big-font-size: 3rem;
+      --h1-font-size: 2.25rem;
+      --h2-font-size: 1.5rem;
+      --h3-font-size: 1.25rem;
+      --normal-font-size: 1rem;
+      --small-font-size: .875rem;
+      --smaller-font-size: .813rem;
+  }
+}
+
