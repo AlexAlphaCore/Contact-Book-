@@ -110,9 +110,9 @@ body {
     color: white; /* Color de texto */
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 2px;
+    display: grid;
+    font-size: medium;
+    margin: 9px ;
     cursor: pointer;
   }
 
