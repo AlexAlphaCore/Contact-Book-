@@ -64,7 +64,7 @@ body {
   }
 
   input[type="text"] {
-    width: 100%; /* Ancho del campo de entrada en % */
+    width: 90%; /* Ancho del campo de entrada en % */
     font-size: 1em; /* Tamaño de fuente en 'em' */
     margin: 5px 0;
     border: 1px solid #ccc;
