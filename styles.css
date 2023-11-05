@@ -65,7 +65,7 @@ body {
 
   input[type="text"] {
     width: 90%; /* Ancho del campo de entrada en % */
-    font-size: 30px; /* Tamaño de fuente en 'em' */
+    font-size: 1em; /* Tamaño de fuente en 'em' */
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -76,7 +76,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 14vh;
+    height: 17vh;
     color: #fff;
     padding: 10px 20px;
     border: none;
