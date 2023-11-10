@@ -1,2 +1,2 @@
-<h1>Better in Mobile</h1>
-It is made for mobile, it looks better there, with more code and backend it could be a basic app
+<h1>ADD CONTACTS</h1>
+Complete the form and click add contact and it will appear above, you can simulate log out and return to the example log in menu.
